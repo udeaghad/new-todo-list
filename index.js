@@ -125,7 +125,7 @@ const addItem = () => {
 container.addEventListener('click', checkItem);
 
 // add event listener to the input to create items added on the addItem function
-inputAdd.addEventListener('keypress', (e) => {
+inputAdd.addEventListener('keypress', e => {
   if (e.key === 'Enter') {
     e.preventDefault();
 
